@@ -15,7 +15,7 @@
     html, body {
         height: 100%;
         font-family: 'Poppins', sans-serif;
-        background-color: #d7eff3; /* Fondo celeste pálido agregado */
+        background-color: #d7eff3;
     }
 
     .hero {
@@ -27,42 +27,32 @@
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
-        padding-left: 5%;
+        justify-content: center;
+        padding: 1rem;
+        text-align: center;
     }
 
     .hero-text {
         background-color: rgba(255, 255, 255, 0.85);
-        padding: 2rem 3rem;
+        padding: 1.5rem;
         border-radius: 20px;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        width: 100%;
         max-width: 600px;
     }
 
-        .hero-text h1 {
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            color: #2c3e50;
-            margin: 0;
-        }
-
-        .hero-text p {
-            font-size: 1.2rem;
-            color: #34495e;
-        }
-
-    @@media (max-width: 768px) {
-        .hero-text h1
+    /* Ajuste para pantallas grandes */
+    @@media (min-width: 1024px) {
+        .hero
 
     {
-        font-size: 2rem;
+        justify-content: flex-start; /* Lo movemos a la izquierda */
+        padding-left: 10%; /* Y le damos espacio interno */
+        text-align: left; /* Alineamos el texto */
     }
 
-    .hero-text p {
-        font-size: 1rem;
-    }
-
-    .hero {
-        padding-left: 2%;
+    .hero-text {
+        max-width: 500px;
     }
 
     }
@@ -71,6 +61,6 @@
 <div class="hero">
     <div class="hero-text">
         <h1>BIENVENIDO A LA ENFERMERÍA DEL AGRO</h1>
-        <p>Tu bienestar es nuestra prioridad. Aquí cuidamos de tu salud con responsabilidad y cariño.</p>
+        <p>Tu bienestar es nuestra prioridad.</p>
     </div>
 </div>

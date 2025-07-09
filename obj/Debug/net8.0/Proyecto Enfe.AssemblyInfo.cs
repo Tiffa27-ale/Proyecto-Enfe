@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proyecto Enfe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c481a6d5d9aea1c764cb5868f53636be96ef804")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proyecto Enfe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proyecto Enfe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
